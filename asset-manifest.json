@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/CatCafe/static/js/main.ed523de6.chunk.js",
+    "main.js.map": "/CatCafe/static/js/main.ed523de6.chunk.js.map",
+    "runtime-main.js": "/CatCafe/static/js/runtime-main.f48de357.js",
+    "runtime-main.js.map": "/CatCafe/static/js/runtime-main.f48de357.js.map",
+    "static/js/2.f1dca37e.chunk.js": "/CatCafe/static/js/2.f1dca37e.chunk.js",
+    "static/js/2.f1dca37e.chunk.js.map": "/CatCafe/static/js/2.f1dca37e.chunk.js.map",
+    "index.html": "/CatCafe/index.html",
+    "static/js/2.f1dca37e.chunk.js.LICENSE.txt": "/CatCafe/static/js/2.f1dca37e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f48de357.js",
+    "static/js/2.f1dca37e.chunk.js",
+    "static/js/main.ed523de6.chunk.js"
+  ]
+}
