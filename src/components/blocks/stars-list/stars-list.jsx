@@ -1,25 +1,29 @@
-import "./style.css";
 import { Title } from "/src/components/ui/title/title";
 import { StarCard } from "/src/components/ui/star-card/star-card";
 import { Button } from "/src/components/ui/button/button";
-import "./style.css";
+import { StarItem, StarList, StyledStarsList } from "./styles";
 
-export function StarsList({ stars }) {
+export function StarsList({
+  stars, // коты
+  level // уровень заголовка списка.
+}) {
   return (
-    <section className="star-list">
+    <StyledStarsList>
       {stars?.length ? (
         <>
-          <Title>Наши звёзды</Title>
-          <ul className="star-list__list">
+          <Title level={level}>Наши звёзды</Title>
+          <StarList $isGridList>
             {stars.map((star) => (
-              <li className="star-list__item" key={star.id}>
+              <StarItem key={star.id}>
                 <StarCard {...star} />
-              </li>
+              </StarItem>
             ))}
-          </ul>
-          <Button minWidth={353}>Купить билет</Button>
+          </StarList>
         </>
       ) : null}
-    </section>
+      <Button minWidth={353} link="/buy">
+        Купить билет
+      </Button>
+    </StyledStarsList>
   );
 }

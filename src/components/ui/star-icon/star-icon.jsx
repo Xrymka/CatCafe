@@ -1,4 +1,4 @@
-import "./style.css";
+import { StyledStarIcon } from "./styles";
 
 export const CatFeature = {
   NEW: "new",
@@ -30,11 +30,8 @@ export function StarIcon({ className = "", feature }) {
   }
 
   return options.text ? (
-    <span
-      className={`star-icon ${className}`}
-      style={{ backgroundColor: options.bgColor }}
-    >
+    <StyledStarIcon className={className} $bgColor={options.bgColor}>
       {options.text}
-    </span>
+    </StyledStarIcon>
   ) : null;
 }

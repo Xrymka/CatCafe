@@ -1,10 +1,11 @@
 import { PageWrapper } from "/src/components/layout/page-wrapper/page-wrapper.jsx";
 import { starList } from "/src/mocks/starList.js";
-import "./style.css";
+import { GlobalStyle } from "./styles";
 
 export default function App() {
   return (
     <div className="App">
+      <GlobalStyle />
       <PageWrapper stars={starList} />;
     </div>
   );
