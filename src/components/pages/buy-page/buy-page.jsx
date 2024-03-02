@@ -1,7 +1,7 @@
 import { CafeGallery } from "../../blocks/cafe-gallery/cafe-gallery";
 
-export function BuyPage() {
+export function BuyPage({ slides }) {
   return <>
-    <CafeGallery />
+    <CafeGallery slides={slides} />
   </>;
 }
