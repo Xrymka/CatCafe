@@ -1,6 +1,6 @@
 import { Header } from "/src/components/layout/header/header";
 import { Footer } from "/src/components/layout/footer/footer";
-import { MainPage } from "/src/components/pages/main-page/main-page";
+// import { MainPage } from "/src/components/pages/main-page/main-page";
 import { BuyPage } from "../../pages/buy-page/buy-page";
 import { Main } from "./styles";
 
