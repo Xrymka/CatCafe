@@ -1,10 +1,9 @@
 import React from "react";
 import { StyledButton } from "./styles";
 
-export const Button = forwardRef(({ children, minWidth, link, className }, ref) => {
+export function Button({ children, minWidth, link, className }) {
   return (
     <StyledButton
-      ref={ref}
       $minWidth={minWidth}
       {...(link ? { href: link } : { as: "button", type: "button" })}
       className={className}
@@ -12,4 +11,4 @@ export const Button = forwardRef(({ children, minWidth, link, className }, ref) 
       {children}
     </StyledButton>
   );
-});
+}
