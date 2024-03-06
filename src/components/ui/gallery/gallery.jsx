@@ -1,23 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Thumbs } from "swiper/core";
 import "swiper/swiper.scss";
+import { ReactComponent as LeftArrow } from "/src/assets/images/left-arrow.svg";
 
 import {
   SliderWrapper,
   StyledSwiper,
   StyledSwiperMini,
   StyleSlide,
-  StyleSlideMini
+  StyleSlideMini,
+  StyledButtonLeft,
+  StyledButtonRight,
+  RightArrow
 } from "./styles";
 
 SwiperCore.use([Navigation, Thumbs]);
 
 export function Gallery({
-  slides = [] // список слайдов. Каждый слайд — это src картинки и alt
+  slides = [] // список слайдов, каждый слайд — это src картинки и alt
 }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [activeSlide, setActiveSlide] = useState(0);
+  const navigationPrevRef = useRef(null);
+  const navigationNextRef = useRef(null);
 
   return (
     <>
@@ -50,6 +56,14 @@ export function Gallery({
           freeMode
           watchSlidesProgress
           loop
+          navigation={{
+            prevEl: navigationPrevRef.current,
+            nextEl: navigationNextRef.current
+          }}
+          onBeforeInit={(swiper) => {
+            swiper.params.navigation.prevEl = navigationPrevRef.current;
+            swiper.params.navigation.nextEl = navigationNextRef.current;
+          }}
         >
           {slides.map((slide, index) => (
             <SwiperSlide key={slide.id}>
@@ -61,6 +75,12 @@ export function Gallery({
             </SwiperSlide>
           ))}
         </StyledSwiperMini>
+        <StyledButtonLeft ref={navigationPrevRef}>
+          <LeftArrow />
+        </StyledButtonLeft>
+        <StyledButtonRight ref={navigationNextRef}>
+          <RightArrow />
+        </StyledButtonRight>
       </SliderWrapper>
     </>
   );

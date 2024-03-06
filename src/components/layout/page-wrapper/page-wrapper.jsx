@@ -4,7 +4,7 @@ import { Footer } from "/src/components/layout/footer/footer";
 import { BuyPage } from "../../pages/buy-page/buy-page";
 import { Main } from "./styles";
 
-export function PageWrapper(props) {
+export function PageWrapper({ ...props }) {
   return (
     <>
       <Header />
