@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.js": "/CatCafe/static/js/main.f4166953.chunk.js",
-    "main.js.map": "/CatCafe/static/js/main.f4166953.chunk.js.map",
+    "main.js": "/CatCafe/static/js/main.558646dd.chunk.js",
+    "main.js.map": "/CatCafe/static/js/main.558646dd.chunk.js.map",
     "runtime-main.js": "/CatCafe/static/js/runtime-main.f48de357.js",
     "runtime-main.js.map": "/CatCafe/static/js/runtime-main.f48de357.js.map",
-    "static/js/2.71cc3156.chunk.js": "/CatCafe/static/js/2.71cc3156.chunk.js",
-    "static/js/2.71cc3156.chunk.js.map": "/CatCafe/static/js/2.71cc3156.chunk.js.map",
+    "static/css/2.6a6ec778.chunk.css": "/CatCafe/static/css/2.6a6ec778.chunk.css",
+    "static/js/2.e637f5ec.chunk.js": "/CatCafe/static/js/2.e637f5ec.chunk.js",
+    "static/js/2.e637f5ec.chunk.js.map": "/CatCafe/static/js/2.e637f5ec.chunk.js.map",
     "index.html": "/CatCafe/index.html",
-    "static/js/2.71cc3156.chunk.js.LICENSE.txt": "/CatCafe/static/js/2.71cc3156.chunk.js.LICENSE.txt",
-    "static/media/about-bg.0a3e0cef.svg": "/CatCafe/static/media/about-bg.0a3e0cef.svg",
-    "static/media/leaf-bg.1e0a1a53.svg": "/CatCafe/static/media/leaf-bg.1e0a1a53.svg",
-    "static/media/logo.d7c4ff6d.svg": "/CatCafe/static/media/logo.d7c4ff6d.svg",
-    "static/media/map-pin.7907e326.svg": "/CatCafe/static/media/map-pin.7907e326.svg",
-    "static/media/paw-bg.e050c5a0.svg": "/CatCafe/static/media/paw-bg.e050c5a0.svg",
-    "static/media/star-list-bg.f6ee057f.svg": "/CatCafe/static/media/star-list-bg.f6ee057f.svg"
+    "static/css/2.6a6ec778.chunk.css.map": "/CatCafe/static/css/2.6a6ec778.chunk.css.map",
+    "static/js/2.e637f5ec.chunk.js.LICENSE.txt": "/CatCafe/static/js/2.e637f5ec.chunk.js.LICENSE.txt",
+    "static/media/buy-background.b541d6e8.svg": "/CatCafe/static/media/buy-background.b541d6e8.svg",
+    "static/media/buy-right-background-top.7dfa414c.svg": "/CatCafe/static/media/buy-right-background-top.7dfa414c.svg",
+    "static/media/buy-right-background.f268dc4e.svg": "/CatCafe/static/media/buy-right-background.f268dc4e.svg",
+    "static/media/gallery-background.102870ab.svg": "/CatCafe/static/media/gallery-background.102870ab.svg",
+    "static/media/gallery-left.f62ebb22.svg": "/CatCafe/static/media/gallery-left.f62ebb22.svg",
+    "static/media/gallery-right.2cc868a8.svg": "/CatCafe/static/media/gallery-right.2cc868a8.svg",
+    "static/media/left-arrow.29633b16.svg": "/CatCafe/static/media/left-arrow.29633b16.svg",
+    "static/media/logo.d7c4ff6d.svg": "/CatCafe/static/media/logo.d7c4ff6d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f48de357.js",
-    "static/js/2.71cc3156.chunk.js",
-    "static/js/main.f4166953.chunk.js"
+    "static/css/2.6a6ec778.chunk.css",
+    "static/js/2.e637f5ec.chunk.js",
+    "static/js/main.558646dd.chunk.js"
   ]
 }
